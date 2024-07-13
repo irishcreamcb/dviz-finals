@@ -1,0 +1,44 @@
+crop_name,season,price,sell,energy,health,gpd,mature_time,max_harvests
+Jazz,Spring,30,50,45,20,2.86,7,1
+Carrot,Spring,0,35,75,33,11.67,3,1
+Cauliflower,Spring,80,175,75,33,7.92,12,1
+Coffee Bean,Spring,0,15,0,0,25.56,10,24 
+Coffee Bean,Summer,0,15,0,0,25.56,10,24
+Garlic,Spring,40,60,20,9,5,4,1
+Green Bean,Spring,60,40,25,11,7.2,10,7
+Kale,Spring,70,110,50,22,6.67,6,1
+Parsnip,Spring,20,35,25,11,3.75,4,1
+Potato,Spring,50,80,25,11,8.33,6,1
+Rhubarb,Spring,100,220,0,0,9.23,13,1
+Strawberry,Spring,100,120,50,22,20.83,8,6
+Tulip,Spring,20,30,45,20,1.67,6,1
+Unmilled Rice,Spring, 40,30,3,1,-1.67,6,1
+Blueberry,Summer,80,50,25,11,20.8,13,4
+Corn,Summer,150,50,25,11,7.41,14,11
+Corn,Fall,150,50,25,11,7.41,14,11
+Hops,Summer,60,25,45,20,13.52,11,17
+Hot Pepper,Summer,40,40,13,5,10.77,5,8
+Melon,Summer,80,250,113,50,14.17,12,1
+Poppy,Summer,100,140,45,20,5.71,7,1
+Radish,Summer,40,90,45,20,8.33,6,1
+Red Cabbage,Summer,100,260,75,33,17.78,9,1
+Starfruit,Summer,400,750,125,56,26.92,13,1
+Summer Spangle,Summer,50,90,45,20,5,8,1
+Summer Squash,Summer,0,45,63,28,12.85,6,8
+Sunflower,Summer,200,80,45,20,-15,8,1
+Sunflower,Fall,200,80,45,20,-15,8,1
+Tomato,Summer,50,60,20,9,9.26,11,5
+Wheat,Summer,10,25,0,0,3.75,4,1
+Wheat,Fall,10,25,0,0,3.75,4,1
+Amaranth,Fall,70,150,50,22,11.43,7,1
+Artichoke,Fall,30,160,30,13,16.25,8,1
+Beet,Fall,20,100,30,13,13.33,6,1
+Bok Choy,Fall,50,80,25,11,7.5,4,1
+Broccoli,Fall,0,70,63,28,14.58,8,6
+Cranberries,Fall,240,75,38,17,18.89,7,5
+Eggplant,Fall,20,60,20,9,11.2,5,5
+Fairy Rose,Fall,200,290,45,20,7.5,12,1
+Grape,Fall,60,80,38,17,16.8,10,7
+Pumpkin,Fall,100,320,0,0,16.92,13,1
+Yam,Fall,60,169,45,20,10,10,1
+Powdermelon,Winter,0,60,63,28,8.57,7,1

@@ -1,0 +1,25 @@
+fish_name,season,price,location,weather,start_time,end_time,size_range,difficulty,behavior,xp
+Bream,Spring|Summer|Fall|Winter,45,River,Sunny|Rainy,12,20,12-31,35,smooth,14
+Largemouth Bass,Spring|Summer|Fall|Winter,100,Mountain Lake,Sunny|Rainy,0,13,11-31,50,mixed,19
+Carp,Spring|Summer|Fall|Winter,30,Mountain Lake|Secret Woods|The Sewers,Sunny|Rainy,0,20,15-51,15,mixed,8
+Ghostfish,Spring|Summer|Fall|Winter,45,The Mines,Sunny|Rainy,0,20,10-36,50,mixed,19
+Stonefish,Spring|Summer|Fall|Winter,300,The Mines,Sunny|Rainy,0,20,14-16,65,sinker,24
+Ice Pip,Spring|Summer|Fall|Winter,500,The Mines,Sunny|Rainy,0,20,7-9,85,dart,31
+Lava Eel,Spring|Summer|Fall|Winter,700,The Mines,Sunny|Rainy,0,20,31-33,90,mixed,33
+Sandfish,Spring|Summer|Fall|Winter,75,The Desert,Sunny|Rainy,0,14,8-25,65,mixed,24
+Scorpion Carp,Spring|Summer|Fall|Winter,150,The Desert,Sunny|Rainy,0,14,12-33,90,dart,33
+Bullhead,Spring|Summer|Fall|Winter,75,Mountain Lake,Sunny|Rainy,0,20,12-31,46,smooth,18
+Chub,Spring|Summer|Fall|Winter,50,River|Mountain Lake,Sunny|Rainy,0,20,12-25,35,dart,14
+Woodskip,Spring|Summer|Fall|Winter,75,Secret Woods,Sunny|Rainy,0,20,11-31,50,mixed,19
+Void Salmon,Spring|Summer|Fall|Winter,150,Witch's Swamp,Sunny|Rainy,0,20,24-66,80,mixed,29
+Slimejack,Spring|Summer|Fall|Winter,100,Mutant Bug Lair,Sunny|Rainy,0,20,8-26,55,dart,21
+Stingray,Spring|Summer|Fall|Winter,180,Ginger Island,Sunny|Rainy,0,20,18-61,80,sinker,29
+Lionfish,Spring|Summer|Fall|Winter,100,Ginger Island,Sunny|Rainy,0,20,3-13,50,smooth,19
+Blue Discus,Spring|Summer|Fall|Winter,120,Ginger Island,Sunny|Rainy,0,20,2-10,60,dart,23
+Goby,Spring|Summer|Fall|Winter,150,Waterfalls,Sunny|Rainy,0,20,3-13,55,dart,21
+Salmon,Fall,75,River|Waterfalls,Sunny|Rainy,0,13,24-66,50,mixed,19
+Sea Cucumber,Fall|Winter,75,Ocean,Sunny|Rainy,0,13,3-21,40,sinker,16
+Tiger Trout,Fall|Winter,150,River,Sunny|Rainy,0,13,10-21,60,dart,23
+Albacore,Fall|Winter,75,Ocean,Sunny|Rainy,0|12,5|20,20-41,60,mixed,23
+Walleye,Fall|Winter,105,River|Forest Pond|Mountain Lake,Rainy,6,20,10-41,45,smooth,18
+Midnight Carp,Fall|Winter,150,Mountain Lake|Forest Pond|Ginger Island,Sunny|Rainy,14,20,12-53,55,mixed,21
