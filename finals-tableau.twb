@@ -1,0 +1,1268 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0524.1403                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0524.1403)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='crops' inline='true' name='federated.0wqedno182gm6a19hg0ad03llkwi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='crops' name='textscan.15fbpcr12v7o1n0zu4wpc1nlpata'>
+            <connection class='textscan' directory='C:/Users/Noah/Documents/admu/3-0/csci117i/finals' filename='crops.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.15fbpcr12v7o1n0zu4wpc1nlpata' name='crops.csv' table='[crops#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='crop_name' ordinal='0' />
+            <column datatype='string' name='season' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='integer' name='sell' ordinal='3' />
+            <column datatype='integer' name='energy' ordinal='4' />
+            <column datatype='integer' name='health' ordinal='5' />
+            <column datatype='real' name='gpd' ordinal='6' />
+            <column datatype='integer' name='mature_time' ordinal='7' />
+            <column datatype='integer' name='max_harvests' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.15fbpcr12v7o1n0zu4wpc1nlpata' name='crops.csv' table='[crops#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='crop_name' ordinal='0' />
+            <column datatype='string' name='season' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='integer' name='sell' ordinal='3' />
+            <column datatype='integer' name='energy' ordinal='4' />
+            <column datatype='integer' name='health' ordinal='5' />
+            <column datatype='real' name='gpd' ordinal='6' />
+            <column datatype='integer' name='mature_time' ordinal='7' />
+            <column datatype='integer' name='max_harvests' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₱&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_PH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crop_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[crop_name]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>crop_name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sell</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sell]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>sell</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[energy]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>energy</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[health]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>health</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gpd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gpd]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>gpd</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mature_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mature_time]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>mature_time</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max_harvests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[max_harvests]</local-name>
+            <parent-name>[crops.csv]</parent-name>
+            <remote-alias>max_harvests</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='crops.csv' datatype='table' name='[__tableau_internal_object_id__].[crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE]' role='measure' type='quantitative' />
+      <column caption='Crop Name' datatype='string' name='[crop_name]' role='dimension' type='nominal' />
+      <column caption='Energy' datatype='integer' name='[energy]' role='measure' type='quantitative' />
+      <column caption='Gpd' datatype='real' name='[gpd]' role='measure' type='quantitative' />
+      <column caption='Health' datatype='integer' name='[health]' role='measure' type='quantitative' />
+      <column caption='Mature Time' datatype='integer' name='[mature_time]' role='measure' type='quantitative' />
+      <column caption='Max Harvests' datatype='integer' name='[max_harvests]' role='measure' type='quantitative' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+      <column caption='Sell' datatype='integer' name='[sell]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='crops.csv' id='crops.csv_8AA981AC8FAC4C8A87451B673CE86ABE'>
+            <properties context=''>
+              <relation connection='textscan.15fbpcr12v7o1n0zu4wpc1nlpata' name='crops.csv' table='[crops#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+                  <column datatype='string' name='crop_name' ordinal='0' />
+                  <column datatype='string' name='season' ordinal='1' />
+                  <column datatype='integer' name='price' ordinal='2' />
+                  <column datatype='integer' name='sell' ordinal='3' />
+                  <column datatype='integer' name='energy' ordinal='4' />
+                  <column datatype='integer' name='health' ordinal='5' />
+                  <column datatype='real' name='gpd' ordinal='6' />
+                  <column datatype='integer' name='mature_time' ordinal='7' />
+                  <column datatype='integer' name='max_harvests' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='geodes' inline='true' name='federated.0kpotsq0mnt2gb1gimiao03g35om' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='geodes' name='textscan.0h3m7b81j1677g1fhyc621kwr5ar'>
+            <connection class='textscan' directory='C:/Users/Noah/Documents/admu/3-0/csci117i/finals' filename='geodes.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0h3m7b81j1677g1fhyc621kwr5ar' name='geodes.csv' table='[geodes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='string' name='geode_type' ordinal='3' />
+            <column datatype='real' name='probability' ordinal='4' />
+            <column datatype='real' name='omni_prob' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0h3m7b81j1677g1fhyc621kwr5ar' name='geodes.csv' table='[geodes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='string' name='geode_type' ordinal='3' />
+            <column datatype='real' name='probability' ordinal='4' />
+            <column datatype='real' name='omni_prob' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₱&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_PH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geode_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geode_type]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>geode_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>probability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[probability]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>probability</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>omni_prob</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[omni_prob]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>omni_prob</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='geodes.csv' datatype='table' name='[__tableau_internal_object_id__].[geodes.csv_78FECA892CD149A39EE8FB83A11C0675]' role='measure' type='quantitative' />
+      <column caption='Geode Type' datatype='string' name='[geode_type]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Omni Prob' datatype='real' name='[omni_prob]' role='measure' type='quantitative' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Probability' datatype='real' name='[probability]' role='measure' type='quantitative' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Clay&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Iron Ore&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sandstone&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aerinite&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Frozen Tear&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Neptunite&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Basalt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Granite&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Orpiment&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dwarf Gadget&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kyanite&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Stone&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Coal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jagoite&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Slate&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bixite&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Helvite&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Petrified Slime&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Fire Quartz&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mudstone&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alamite&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Geminite&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Obsidian&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Fairy Stone&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Malachite&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Calcite&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hematite&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prismatic Shard&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dwarvish Helm&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lemon Stone&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Thunder Egg&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Earth Crystal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Limestone&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tigerseye&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fire Opal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Marble&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fluroapatite&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nekoite&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Copper Ore&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jamborite&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Soapstone&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Celestine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iridium Ore&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pyrite&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ancient Drum&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ghost Crystal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ocean Stone&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Esperite&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lunarite&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dolomite&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Jasper&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Star Shards&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Baryte&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gold Ore&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Opal&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='geodes.csv' id='geodes.csv_78FECA892CD149A39EE8FB83A11C0675'>
+            <properties context=''>
+              <relation connection='textscan.0h3m7b81j1677g1fhyc621kwr5ar' name='geodes.csv' table='[geodes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+                  <column datatype='string' name='name' ordinal='0' />
+                  <column datatype='string' name='type' ordinal='1' />
+                  <column datatype='integer' name='price' ordinal='2' />
+                  <column datatype='string' name='geode_type' ordinal='3' />
+                  <column datatype='real' name='probability' ordinal='4' />
+                  <column datatype='real' name='omni_prob' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='geodes (2)' inline='true' name='federated.083k4x60lyiwij1aqz5o81ye2p9f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='geodes' name='textscan.1r1eq2b0pmkarv1bsvof31vwz8ez'>
+            <connection class='textscan' directory='C:/Users/Noah/Documents/admu/3-0/csci117i/finals' filename='geodes.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1r1eq2b0pmkarv1bsvof31vwz8ez' name='geodes.csv' table='[geodes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='string' name='geode_type' ordinal='3' />
+            <column datatype='real' name='probability' ordinal='4' />
+            <column datatype='real' name='omni_prob' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1r1eq2b0pmkarv1bsvof31vwz8ez' name='geodes.csv' table='[geodes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='string' name='geode_type' ordinal='3' />
+            <column datatype='real' name='probability' ordinal='4' />
+            <column datatype='real' name='omni_prob' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₱&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_PH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geode_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geode_type]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>geode_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>probability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[probability]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>probability</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>omni_prob</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[omni_prob]</local-name>
+            <parent-name>[geodes.csv]</parent-name>
+            <remote-alias>omni_prob</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='geodes.csv' datatype='table' name='[__tableau_internal_object_id__].[geodes.csv_B1167F7CD3A646D4B0D03E985B789993]' role='measure' type='quantitative' />
+      <column caption='Geode Type' datatype='string' name='[geode_type]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Omni Prob' datatype='real' name='[omni_prob]' role='measure' type='quantitative' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Probability' datatype='real' name='[probability]' role='measure' type='quantitative' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='geodes.csv' id='geodes.csv_B1167F7CD3A646D4B0D03E985B789993'>
+            <properties context=''>
+              <relation connection='textscan.1r1eq2b0pmkarv1bsvof31vwz8ez' name='geodes.csv' table='[geodes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+                  <column datatype='string' name='name' ordinal='0' />
+                  <column datatype='string' name='type' ordinal='1' />
+                  <column datatype='integer' name='price' ordinal='2' />
+                  <column datatype='string' name='geode_type' ordinal='3' />
+                  <column datatype='real' name='probability' ordinal='4' />
+                  <column datatype='real' name='omni_prob' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='fish' inline='true' name='federated.1jk07yf16iz8dv174q4lm0691vq6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='fish' name='textscan.1qwuz7l1uk8zik17pzbls0s7ghel'>
+            <connection class='textscan' directory='C:/Users/Noah/Documents/admu/3-0/csci117i/finals' filename='fish.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1qwuz7l1uk8zik17pzbls0s7ghel' name='fish.csv' table='[fish#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='fish_name' ordinal='0' />
+            <column datatype='string' name='season' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='string' name='location' ordinal='3' />
+            <column datatype='string' name='weather' ordinal='4' />
+            <column datatype='integer' name='start_time' ordinal='5' />
+            <column datatype='integer' name='end_time' ordinal='6' />
+            <column datatype='string' name='size_range' ordinal='7' />
+            <column datatype='integer' name='difficulty' ordinal='8' />
+            <column datatype='string' name='behavior' ordinal='9' />
+            <column datatype='integer' name='xp' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1qwuz7l1uk8zik17pzbls0s7ghel' name='fish.csv' table='[fish#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='string' name='fish_name' ordinal='0' />
+            <column datatype='string' name='season' ordinal='1' />
+            <column datatype='integer' name='price' ordinal='2' />
+            <column datatype='string' name='location' ordinal='3' />
+            <column datatype='string' name='weather' ordinal='4' />
+            <column datatype='integer' name='start_time' ordinal='5' />
+            <column datatype='integer' name='end_time' ordinal='6' />
+            <column datatype='string' name='size_range' ordinal='7' />
+            <column datatype='integer' name='difficulty' ordinal='8' />
+            <column datatype='string' name='behavior' ordinal='9' />
+            <column datatype='integer' name='xp' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₱&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_PH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fish_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fish_name]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>fish_name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weather</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weather]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>weather</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[start_time]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>start_time</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[end_time]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>end_time</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>size_range</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[size_range]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>size_range</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>difficulty</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[difficulty]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>difficulty</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>behavior</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[behavior]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>behavior</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[xp]</local-name>
+            <parent-name>[fish.csv]</parent-name>
+            <remote-alias>xp</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='fish.csv' datatype='table' name='[__tableau_internal_object_id__].[fish.csv_3F408F35DCFE44F49B790A5F13EA72F8]' role='measure' type='quantitative' />
+      <column caption='Behavior' datatype='string' name='[behavior]' role='dimension' type='nominal' />
+      <column caption='Difficulty' datatype='integer' name='[difficulty]' role='measure' type='quantitative' />
+      <column caption='End Time' datatype='integer' name='[end_time]' role='measure' type='quantitative' />
+      <column caption='Fish Name' datatype='string' name='[fish_name]' role='dimension' type='nominal' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+      <column caption='Size Range' datatype='string' name='[size_range]' role='dimension' type='nominal' />
+      <column caption='Start Time' datatype='integer' name='[start_time]' role='measure' type='quantitative' />
+      <column caption='Weather' datatype='string' name='[weather]' role='dimension' type='nominal' />
+      <column caption='Xp' datatype='integer' name='[xp]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='fish.csv' id='fish.csv_3F408F35DCFE44F49B790A5F13EA72F8'>
+            <properties context=''>
+              <relation connection='textscan.1qwuz7l1uk8zik17pzbls0s7ghel' name='fish.csv' table='[fish#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+                  <column datatype='string' name='fish_name' ordinal='0' />
+                  <column datatype='string' name='season' ordinal='1' />
+                  <column datatype='integer' name='price' ordinal='2' />
+                  <column datatype='string' name='location' ordinal='3' />
+                  <column datatype='string' name='weather' ordinal='4' />
+                  <column datatype='integer' name='start_time' ordinal='5' />
+                  <column datatype='integer' name='end_time' ordinal='6' />
+                  <column datatype='string' name='size_range' ordinal='7' />
+                  <column datatype='integer' name='difficulty' ordinal='8' />
+                  <column datatype='string' name='behavior' ordinal='9' />
+                  <column datatype='integer' name='xp' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='crops' name='federated.0wqedno182gm6a19hg0ad03llkwi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wqedno182gm6a19hg0ad03llkwi'>
+            <column caption='Crop Name' datatype='string' name='[crop_name]' role='dimension' type='nominal' />
+            <column caption='Gpd' datatype='real' name='[gpd]' role='measure' type='quantitative' />
+            <column-instance column='[crop_name]' derivation='None' name='[none:crop_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:nk]' pivot='key' type='nominal' />
+            <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+            <column-instance column='[gpd]' derivation='Sum' name='[sum:gpd:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wqedno182gm6a19hg0ad03llkwi].[none:season:nk]'>
+            <groupfilter function='member' level='[none:season:nk]' member='&quot;Spring&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0wqedno182gm6a19hg0ad03llkwi].[none:season:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0wqedno182gm6a19hg0ad03llkwi].[sum:gpd:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0wqedno182gm6a19hg0ad03llkwi].[sum:gpd:qk]' />
+              <color column='[federated.0wqedno182gm6a19hg0ad03llkwi].[sum:gpd:qk]' />
+              <text column='[federated.0wqedno182gm6a19hg0ad03llkwi].[none:crop_name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0289E9FD-A7B0-4C41-BE11-2118CDFA76E0}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='geodes' name='federated.0kpotsq0mnt2gb1gimiao03g35om' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kpotsq0mnt2gb1gimiao03g35om'>
+            <column caption='Geode Type' datatype='string' name='[geode_type]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[geode_type]' derivation='None' name='[none:geode_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column caption='Probability' datatype='real' name='[probability]' role='measure' type='quantitative' />
+            <column-instance column='[probability]' derivation='Sum' name='[sum:probability:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kpotsq0mnt2gb1gimiao03g35om].[none:geode_type:nk]'>
+            <groupfilter function='member' level='[none:geode_type:nk]' member='&quot;Geode&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0kpotsq0mnt2gb1gimiao03g35om].[none:geode_type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0kpotsq0mnt2gb1gimiao03g35om].[none:name:nk]' />
+              <wedge-size column='[federated.0kpotsq0mnt2gb1gimiao03g35om].[sum:probability:qk]' />
+              <size column='[federated.0kpotsq0mnt2gb1gimiao03g35om].[sum:probability:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C8466F10-FCA4-4735-816F-77DC94ACE1BD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='93'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wqedno182gm6a19hg0ad03llkwi].[sum:gpd:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wqedno182gm6a19hg0ad03llkwi].[none:crop_name:nk]</field>
+            <field>[federated.0wqedno182gm6a19hg0ad03llkwi].[none:season:nk]</field>
+            <field>[federated.0wqedno182gm6a19hg0ad03llkwi].[sum:gpd:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C8CBCAF5-FAF9-4D7E-9B2F-A6FE4A9E2042}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kpotsq0mnt2gb1gimiao03g35om].[none:name:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0kpotsq0mnt2gb1gimiao03g35om].[sum:probability:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kpotsq0mnt2gb1gimiao03g35om].[none:geode_type:nk]</field>
+            <field>[federated.0kpotsq0mnt2gb1gimiao03g35om].[none:name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6C7709B0-A74F-4FBC-A5FB-4446B459CC23}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAGvklEQVR4nO3d2W4b5x2G8VfcJUqiRMuSWtmy7Npy7BaN08VBgR41BXLcC+l99AJ6Cb2I
+      LkCXoyJ1DozGKSIolaJ9oSmu4jKc4fTAiGFBbOEmNsfC+/xOCA5F4f9BfKBvoIFmIo7jWICp
+      VNIDAEkiAFjLvPrkN7/7szZ2TpOaBQm7f2tR2fnlpMcYqwsBbOyc6skXe0nNgndArjeV9Ahj
+      xRYI1jKjDj5+uKpKra1cNq0wGurxg1UVchn97emWjqpNrS7NaWO3oo8f31et3dVZo6OTWksr
+      CyWd1tuancrrq+PauNeCN2RiQvrh6rwOzjqazKZ12upptpBVOIw1lc9oOIxVyKa1XWknPeq3
+      NjKAYBCq3u7qxvWSlssz+v0nX+jG9Tn95L0bCsJIvX6orcMzxYoVhpF+dH9FJ2ctLV+b1efb
+      xwoG0bjXgTcoNTGh+nmgbCalO0szyufS6gaRwn6ofCalmUJWXz2/+h9+6b8EsHNc01QhpyCM
+      9Mm/dhVGQ20dVtXpB6o2Orq5NKcwjHRYaeqo2lSr21et2dVJra2d45r408LVFg1jdYJIg3Co
+      rdOWTho9xbE0iIaayme0e1DXwnRBDQ2SHvVbGxlArdVVrdW9cCyMAv37oCpJqrdfvPZs+1iS
+      VG12JEnPG+dvbVCMV6XZkyTVO8GF4wdnL37Wx43upfdcRZwEwxoBwBoBwBoBwBoBwBoBwBoB
+      wBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoB
+      wBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoB
+      wBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoB
+      wBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoB
+      wFom6QHwbnn84DtJjzBWBIALtqudpEcYK7ZAsMZvAFwyHEbafPJXLd5aV7/T1vzyTUlS9WBb
+      ucmiNv7+J61/+JGGw0iz15YUx7HS2Zy6rbpy+Un1zlsqf/dWwqt4PQSAS+Io0kx5UWHQ08HG
+      U4VBX8NooEyuoKB7rvUPP1IY9BUNAu0++1QTqZQ0MaFeu6m5pRWlM1lJBIArKp3NqVCcVSaX
+      18r6+5ouX1e/09b0/HVJ0kQqLUmqHe/q7t3vq9dpS5IGvY5S6bQmZ+YTm/3/RQAY6estzOzC
+      siS9/PC/amntviSpWCq/OPD14xXCSTCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCsEQCs
+      XbgW6IOH39N06epcyIQ3695KWadJDzFmFwLYPDjT0y9PkpoF74DS6nTSI4wVWyBYG3k59C8+
+      WNN+paml+aL+uXWq6cmcMumUTmvnymXTKhXzmp8paHO/pvJMQd0glCRN5bM6rrU1HMaKhvFY
+      FwJ8EyMD2NiranFuSkfVttaWS2p1Aj24taDdqZxK0wX1g1C1Vk8f//SOjqptdYNQYRhpr9LS
+      z39wU395ujPudQDfyMgAMumUto7qmp8uaGOvqmwmreF2RbV2T/FJU/1BqLXlOf3x0y0tzRd1
+      WG29fO/+89aobwm8k0YGsHPSkCQ1zvuSpF4QqdUJLnzNxl5VkrR1VL9wfHP/7I0PCbwtnATD
+      GgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHA
+      GgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHAGgHA2sh/jgtft69NJT3CWBEALthr9JMeYazYAsEa
+      AWCk2tGeWtX/fc/Iwy8/V/usMqaJ3g62QLgkHASqVw5VLJV1drSjqdl5pdJpdRo15Yszatcq
+      uv3+z1Q/2VcY9NR4fqTJmTm1qqcqzpXVazd1471HSS/jtRAALkml0uqfN5VKpZQvzmjn2RNN
+      Tpd0sPmZVh/+WAs37ygeDiVJQbejnc/+ocW1dR1uPtOjX/5Kucliwit4fRNxHL+8neOvf/sH
+      7hNs7NHdJV27czvpMcaKcwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYy7z65N5KOak58A64t1LWbHky6THG
+      6j+f989uJdMD/wAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='164' name='Sheet 2' width='164'>
+      iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAARWElEQVR4nO2dW2wbZ3qGX5HimSOJlERKlGVFli3Jrq3AcRRs6iQusl2nRbfJAulF0CIF
+      tlhgkS3Q2wbIVdHLBXYvFov0YoEC20174wLBJkASNC4SeIHFynXiSLaztiXZoq0DJYvDk8Qh
+      RUq9oH9qOJwZzvAg/Rx9z5U5M5wZx0++9//+ObBjb29vDwTBCbbDPgGCkENCElxBQhJcQUIS
+      XEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxB
+      QhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUIS
+      XEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxB
+      QhJcQUISXEFCElzRedgn0M6I8TiwW0R2e7v0eXMDAJDd3oa0vYXs9jZSJy7B77TD77LD57QD
+      APwuG7rxBP29w4d27rxCQppEjMfxYH4eN67/AQ/m53F6cgIDA2HN7TO5IjK5IpCuXO7IfIvA
+      vb9CMPI8goPTOHXhnRafeXvQsbe3t3fYJ8E7YjyOr2ZmsLhwHw/m5yvWDQyEcXpyQvO7K0Mv
+      qS73rf4HfKu/rljmESIYGn8DvU8lPYpQhdThq5kZXP3sk1I0NxlH5puqZdn0CuZvvI/5G8DU
+      1EsIjf8dHMGLTT82z5CQKojxOK781wdV1VCNtbWYboXUwpmuFpLRLQgQXHlkl/4dudXfwj3y
+      D+j0mz9GO0JCyhDjcVz97BN8NTNj6nuSJMHtdhve3p6P6a4fHhoq/3k3v4nt+z+F3T8Bz8gP
+      YXP2mTq3doOExP4Y8epnn9T1/UQiiYEB40La8mua61wuF7qFrqrlxcxdZG6/C9fg63ANvF7X
+      ebYDR34eUozH8atf/qJuGQFATCRMbe9Mz2quC/XpV8Cv7/0vfvifv8bsyrKpY7YLR1rIq59+
+      ip/+67+0pGnRQ62hAUrV8XhkSHUdAGzknHh/cQSxdBrvfvQhPr/7x1ad4qFxJIUU43Fc/fTT
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
