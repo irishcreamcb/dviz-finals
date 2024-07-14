@@ -23,3 +23,27 @@ Tiger Trout,Fall|Winter,150,River,Sunny|Rainy,0,13,10-21,60,dart,23
 Albacore,Fall|Winter,75,Ocean,Sunny|Rainy,0|12,5|20,20-41,60,mixed,23
 Walleye,Fall|Winter,105,River|Forest Pond|Mountain Lake,Rainy,6,20,10-41,45,smooth,18
 Midnight Carp,Fall|Winter,150,Mountain Lake|Forest Pond|Ginger Island,Sunny|Rainy,14,20,12-53,55,mixed,21
+Anchovy,Spring|Fall,30,Ocean,Sunny|Rainy,0,20,1-17,30,dart,13
+Smallmouth Bass,Spring|Fall,50,River|Forest Pond,Sunny|Rainy,0,20,12-25,28,mixed,12
+Eel,Spring|Fall,85,Ocean,Rainy,10,20,12-81,70,smooth,26
+Catfish,Spring|Fall,200,River|Secret Woods|Witch's Swamp,Rainy,0,18,12-73,75,mixed,28
+Sardine,Spring|Fall|Winter,40,Ocean,Sunny|Rainy,0,13,1-13,30,dart,13
+Sunfish,Spring|Summer,30,River,Sunny,0,13,5-16,30,mixed,13
+Flounder,Spring|Summer,100,Ocean|Ginger Island,Sunny|Rainy,0,13,4-17,50,sinker,19 
+Shad,Spring|Summer|Fall,60,River,Rainy,3,20,20-49,45,smooth,18
+Halibut,Spring|Summer|Winter,80,Ocean,Sunny|Rainy,0|13,5|20,10-34,50,sinker,19
+Herring,Spring|Winter,30,Ocean,Sunny|Rainy,0,20,8-21,25,dart,11
+Rainbow Trout,Summer,65,River|Mountain Lake,Sunny,0,13,10-26,45,mixed,18
+Dorado,Summer,100,River,Sunny|Rainy,0,13,24-33,78,mixed,29
+Pufferfish,Summer,200,Ocean|Ginger Island,Sunny,6,10,1-37,80,floater,29
+Octopus,Summer,150,Ocean|Ginger Island,Sunny|Rainy,0,7,12-49,95,sinker,34
+Super Cucumber,Summer|Fall,250,Ocean|Ginger Island,Sunny|Rainy,12,20,12-37,80,sinker,29
+Tilapia,Summer|Fall,75,Ocean|Ginger Island,Sunny|Rainy,0,8,11-31,50,mixed,19
+Red Snapper,Summer|Fall|Winter,50,Ocean,Rainy,0,13,8-26,40,mixed,16
+Pike,Summer|Winter,100,River|Forest Pond,Sunny|Rainy,0,20,15-61,60,dart,23
+Red Mullet,Summer|Winter,75,Ocean,Sunny|Rainy,0,13,8-23,55,smooth,21
+Sturgeon,Summer|Winter,200,Mountain Lake,Sunny|Rainy,0,13,12-61,78,mixed,29
+Tuna,Summer|Winter,100,Ocean|Ginger Island,Sunny|Rainy,0,13,12-61,70,smooth,26
+Perch,Winter,55,River|Forest Pond|Mountain Lake,Sunny,0,20,10-25,35,dart,14
+Squid,Winter,80,Ocean,Sunny,12,20,12-49,75,sinker,28
+Lingcod,Winter,120,River|Mountain Lake,Sunny,0,20,30-51,85,mixed,31
