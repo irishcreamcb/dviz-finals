@@ -1,0 +1,67 @@
+name,type,price,geode_type,probability,omni_prob
+Dwarvish Helm,Artifact,100,Geode,3.125%,1.127%
+Earth Crystal,Mineral,50,Geode,6.25%,2.083%
+Alamite,Mineral,150,Geode,3.125%,1.127%
+Calcite,Mineral,75,Geode,3.125%,1.127%
+Celestine,Mineral,125,Geode,3.125%,1.127%
+Granite,Mineral,75,Geode,3.125%,1.127%
+Jagoite,Mineral,115,Geode,3.125%,1.127%
+Jamborite,Mineral,150,Geode,3.125%,1.127%
+Limestone,Mineral,15,Geode,3.125%,1.127%
+Malachite,Mineral,100,Geode,3.125%,1.127%
+Mudstone,Mineral,25,Geode,3.125%,1.127%
+Nekoite,Mineral,80,Geode,3.125%,1.127%
+Orpiment,Mineral,80,Geode,3.125%,1.127%
+Petrified Slime,Mineral,120,Geode,3.125%,1.127%
+Sandstone,Mineral,60,Geode,3.125%,1.127%
+Slate,Mineral,75,Geode,3.125%,1.127%
+Thunder Egg,Mineral,100,Geode,3.125%,1.127%
+Stone,Resource,2,Geode,12.5%,12.5%
+Clay,Resource,20,Geode,6.25%,6.25%
+Coal,Resource,15,Geode,8.33%,5%
+Copper Ore,Resource,5,Geode,8.33%,5%
+Iron Ore,Resource,10,Geode,8.33%,5%
+Ancient Drum,Artifact,100,Frozen Geode,3.33%,1.127%
+Frozen Tear,Mineral,75,Frozen Geode,6.25%,2.083%
+Aerinite,Mineral,125,Frozen Geode,3.33%,1.127%
+Esperite,Mineral,100,Frozen Geode,3.33%,1.127%
+Fairy Stone,Mineral,250,Frozen Geode,3.33%,1.127%
+Fluroapatite,Mineral,200,Frozen Geode,3.33%,1.127%
+Geminite,Mineral,150,Frozen Geode,3.33%,1.127%
+Ghost Crystal,Mineral,200,Frozen Geode,3.33%,1.127%
+Hematite,Mineral,150,Frozen Geode,3.33%,1.127%
+Kyanite,Mineral,250,Frozen Geode,3.33%,1.127%
+Lunarite,Mineral,200,Frozen Geode,3.33%,1.127%
+Marble,Mineral,110,Frozen Geode,3.33%,1.127%
+Ocean Stone,Mineral,220,Frozen Geode,3.33%,1.127%
+Opal,Mineral,150,Frozen Geode,3.33%,1.127%
+Pyrite,Mineral,120,Frozen Geode,3.33%,1.127%
+Soapstone,Mineral,120,Frozen Geode,3.33%,1.127%
+Stone,Resource,2,Frozen Geode,12.5%,12.5%
+Clay,Resource,20,Frozen Geode,6.25%,6.25%
+Coal,Resource,15,Frozen Geode,6.25%,5%
+Copper Ore,Resource,5,Frozen Geode,6.25%,5%
+Iron Ore,Resource,10,Frozen Geode,6.25%,5%
+Gold Ore,Resource,25,Frozen Geode,6.25%,5%
+Dwarf Gadget,Artifact,200,Magma Geode,3.85%,1.127%
+Fire Quartz,Mineral,100,Magma Geode,6.25%,2.083%
+Baryte,Mineral,50,Magma Geode,3.85%,1.127%
+Basalt,Mineral,175,Magma Geode,3.85%,1.127%
+Bixite,Mineral,300,Magma Geode,3.85%,1.127%
+Dolomite,Mineral,300,Magma Geode,3.85%,1.127%
+Fire Opal,Mineral,350,Magma Geode,3.85%,1.127%
+Helvite,Mineral,450,Magma Geode,3.85%,1.127%
+Jasper,Mineral,150,Magma Geode,3.85%,1.127%
+Lemon Stone,Mineral,200,Magma Geode,3.85%,1.127%
+Neptunite,Mineral,400,Magma Geode,3.85%,1.127%
+Obsidian,Mineral,200,Magma Geode,3.85%,1.127%
+Star Shards,Mineral,500,Magma Geode,3.85%,1.127%
+Tigerseye,Mineral,275,Magma Geode,3.85%,1.127%
+Stone,Resource,2,Magma Geode,12.5%,12.5%
+Clay,Resource,20,Magma Geode,6.25%,6.25%
+Coal,Resource,15,Magma Geode,5%,5%
+Copper Ore,Resource,5,Magma Geode,5%,5%
+Iron Ore,Resource,10,Magma Geode,5%,5%
+Gold Ore,Resource,15,Magma Geode,5%,5%
+Iridium Ore,Resourece,100,Magma Geode,5%,5%
+Prismatic Shard,Resource,2000,Omni Geode,0.4%,0.4%
