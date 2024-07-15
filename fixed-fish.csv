@@ -1,0 +1,341 @@
+﻿fish_name,season,price,location,weather,start_time,end_time,size_range,difficulty,behavior,xp
+Bream,Spring,45,River,Sunny,12,20,12-31,35,smooth,14
+Bream,Spring,45,River,Rainy,12,20,12-31,35,smooth,14
+Bream,Summer,45,River,Sunny,12,20,12-31,35,smooth,14
+Bream,Summer,45,River,Rainy,12,20,12-31,35,smooth,14
+Bream,Fall,45,River,Sunny,12,20,12-31,35,smooth,14
+Bream,Fall,45,River,Rainy,12,20,12-31,35,smooth,14
+Bream,Winter,45,River,Sunny,12,20,12-31,35,smooth,14
+Bream,Winter,45,River,Rainy,12,20,12-31,35,smooth,14
+Largemouth Bass,Spring,100,Mountain Lake,Sunny,0,13,11-31,50,mixed,19
+Largemouth Bass,Spring,100,Mountain Lake,Rainy,0,13,11-31,50,mixed,19
+Largemouth Bass,Summer,100,Mountain Lake,Sunny,0,13,11-31,50,mixed,19
+Largemouth Bass,Summer,100,Mountain Lake,Rainy,0,13,11-31,50,mixed,19
+Largemouth Bass,Fall,100,Mountain Lake,Sunny,0,13,11-31,50,mixed,19
+Largemouth Bass,Fall,100,Mountain Lake,Rainy,0,13,11-31,50,mixed,19
+Largemouth Bass,Winter,100,Mountain Lake,Sunny,0,13,11-31,50,mixed,19
+Largemouth Bass,Winter,100,Mountain Lake,Rainy,0,13,11-31,50,mixed,19
+Carp,Spring,30,Mountain Lake,Sunny,0,20,15-51,15,mixed,8
+Carp,Spring,30,Mountain Lake,Rainy,0,20,15-51,15,mixed,8
+Carp,Spring,30,Secret Woods,Sunny,0,20,15-51,15,mixed,8
+Carp,Spring,30,Secret Woods,Rainy,0,20,15-51,15,mixed,8
+Carp,Spring,30,The Sewers,Sunny,0,20,15-51,15,mixed,8
+Carp,Spring,30,The Sewers,Rainy,0,20,15-51,15,mixed,8
+Carp,Summer,30,Mountain Lake,Sunny,0,20,15-51,15,mixed,8
+Carp,Summer,30,Mountain Lake,Rainy,0,20,15-51,15,mixed,8
+Carp,Summer,30,Secret Woods,Sunny,0,20,15-51,15,mixed,8
+Carp,Summer,30,Secret Woods,Rainy,0,20,15-51,15,mixed,8
+Carp,Summer,30,The Sewers,Sunny,0,20,15-51,15,mixed,8
+Carp,Summer,30,The Sewers,Rainy,0,20,15-51,15,mixed,8
+Carp,Fall,30,Mountain Lake,Sunny,0,20,15-51,15,mixed,8
+Carp,Fall,30,Mountain Lake,Rainy,0,20,15-51,15,mixed,8
+Carp,Fall,30,Secret Woods,Sunny,0,20,15-51,15,mixed,8
+Carp,Fall,30,Secret Woods,Rainy,0,20,15-51,15,mixed,8
+Carp,Fall,30,The Sewers,Sunny,0,20,15-51,15,mixed,8
+Carp,Fall,30,The Sewers,Rainy,0,20,15-51,15,mixed,8
+Carp,Winter,30,Mountain Lake,Sunny,0,20,15-51,15,mixed,8
+Carp,Winter,30,Mountain Lake,Rainy,0,20,15-51,15,mixed,8
+Carp,Winter,30,Secret Woods,Sunny,0,20,15-51,15,mixed,8
+Carp,Winter,30,Secret Woods,Rainy,0,20,15-51,15,mixed,8
+Carp,Winter,30,The Sewers,Sunny,0,20,15-51,15,mixed,8
+Carp,Winter,30,The Sewers,Rainy,0,20,15-51,15,mixed,8
+Ghostfish,Spring,45,The Mines,Sunny,0,20,10-36,50,mixed,19
+Ghostfish,Spring,45,The Mines,Rainy,0,20,10-36,50,mixed,19
+Ghostfish,Summer,45,The Mines,Sunny,0,20,10-36,50,mixed,19
+Ghostfish,Summer,45,The Mines,Rainy,0,20,10-36,50,mixed,19
+Ghostfish,Fall,45,The Mines,Sunny,0,20,10-36,50,mixed,19
+Ghostfish,Fall,45,The Mines,Rainy,0,20,10-36,50,mixed,19
+Ghostfish,Winter,45,The Mines,Sunny,0,20,10-36,50,mixed,19
+Ghostfish,Winter,45,The Mines,Rainy,0,20,10-36,50,mixed,19
+Stonefish,Spring,300,The Mines,Sunny,0,20,14-16,65,sinker,24
+Stonefish,Spring,300,The Mines,Rainy,0,20,14-16,65,sinker,24
+Stonefish,Summer,300,The Mines,Sunny,0,20,14-16,65,sinker,24
+Stonefish,Summer,300,The Mines,Rainy,0,20,14-16,65,sinker,24
+Stonefish,Fall,300,The Mines,Sunny,0,20,14-16,65,sinker,24
+Stonefish,Fall,300,The Mines,Rainy,0,20,14-16,65,sinker,24
+Stonefish,Winter,300,The Mines,Sunny,0,20,14-16,65,sinker,24
+Stonefish,Winter,300,The Mines,Rainy,0,20,14-16,65,sinker,24
+Ice Pip,Spring,500,The Mines,Sunny,0,20,7-9,85,dart,31
+Ice Pip,Spring,500,The Mines,Rainy,0,20,7-9,85,dart,31
+Ice Pip,Summer,500,The Mines,Sunny,0,20,7-9,85,dart,31
+Ice Pip,Summer,500,The Mines,Rainy,0,20,7-9,85,dart,31
+Ice Pip,Fall,500,The Mines,Sunny,0,20,7-9,85,dart,31
+Ice Pip,Fall,500,The Mines,Rainy,0,20,7-9,85,dart,31
+Ice Pip,Winter,500,The Mines,Sunny,0,20,7-9,85,dart,31
+Ice Pip,Winter,500,The Mines,Rainy,0,20,7-9,85,dart,31
+Lava Eel,Spring,700,The Mines,Sunny,0,20,31-33,90,mixed,33
+Lava Eel,Spring,700,The Mines,Rainy,0,20,31-33,90,mixed,33
+Lava Eel,Summer,700,The Mines,Sunny,0,20,31-33,90,mixed,33
+Lava Eel,Summer,700,The Mines,Rainy,0,20,31-33,90,mixed,33
+Lava Eel,Fall,700,The Mines,Sunny,0,20,31-33,90,mixed,33
+Lava Eel,Fall,700,The Mines,Rainy,0,20,31-33,90,mixed,33
+Lava Eel,Winter,700,The Mines,Sunny,0,20,31-33,90,mixed,33
+Lava Eel,Winter,700,The Mines,Rainy,0,20,31-33,90,mixed,33
+Sandfish,Spring,75,The Desert,Sunny,0,14,8-25,65,mixed,24
+Sandfish,Spring,75,The Desert,Rainy,0,14,8-25,65,mixed,24
+Sandfish,Summer,75,The Desert,Sunny,0,14,8-25,65,mixed,24
+Sandfish,Summer,75,The Desert,Rainy,0,14,8-25,65,mixed,24
+Sandfish,Fall,75,The Desert,Sunny,0,14,8-25,65,mixed,24
+Sandfish,Fall,75,The Desert,Rainy,0,14,8-25,65,mixed,24
+Sandfish,Winter,75,The Desert,Sunny,0,14,8-25,65,mixed,24
+Sandfish,Winter,75,The Desert,Rainy,0,14,8-25,65,mixed,24
+Scorpion Carp,Spring,150,The Desert,Sunny,0,14,12-33,90,dart,33
+Scorpion Carp,Spring,150,The Desert,Rainy,0,14,12-33,90,dart,33
+Scorpion Carp,Summer,150,The Desert,Sunny,0,14,12-33,90,dart,33
+Scorpion Carp,Summer,150,The Desert,Rainy,0,14,12-33,90,dart,33
+Scorpion Carp,Fall,150,The Desert,Sunny,0,14,12-33,90,dart,33
+Scorpion Carp,Fall,150,The Desert,Rainy,0,14,12-33,90,dart,33
+Scorpion Carp,Winter,150,The Desert,Sunny,0,14,12-33,90,dart,33
+Scorpion Carp,Winter,150,The Desert,Rainy,0,14,12-33,90,dart,33
+Bullhead,Spring,75,Mountain Lake,Sunny,0,20,12-31,46,smooth,18
+Bullhead,Spring,75,Mountain Lake,Rainy,0,20,12-31,46,smooth,18
+Bullhead,Summer,75,Mountain Lake,Sunny,0,20,12-31,46,smooth,18
+Bullhead,Summer,75,Mountain Lake,Rainy,0,20,12-31,46,smooth,18
+Bullhead,Fall,75,Mountain Lake,Sunny,0,20,12-31,46,smooth,18
+Bullhead,Fall,75,Mountain Lake,Rainy,0,20,12-31,46,smooth,18
+Bullhead,Winter,75,Mountain Lake,Sunny,0,20,12-31,46,smooth,18
+Bullhead,Winter,75,Mountain Lake,Rainy,0,20,12-31,46,smooth,18
+Chub,Spring,50,River,Sunny,0,20,12-25,35,dart,14
+Chub,Spring,50,River,Rainy,0,20,12-25,35,dart,14
+Chub,Spring,50,Mountain Lake,Sunny,0,20,12-25,35,dart,14
+Chub,Spring,50,Mountain Lake,Rainy,0,20,12-25,35,dart,14
+Chub,Summer,50,River,Sunny,0,20,12-25,35,dart,14
+Chub,Summer,50,River,Rainy,0,20,12-25,35,dart,14
+Chub,Summer,50,Mountain Lake,Sunny,0,20,12-25,35,dart,14
+Chub,Summer,50,Mountain Lake,Rainy,0,20,12-25,35,dart,14
+Chub,Fall,50,River,Sunny,0,20,12-25,35,dart,14
+Chub,Fall,50,River,Rainy,0,20,12-25,35,dart,14
+Chub,Fall,50,Mountain Lake,Sunny,0,20,12-25,35,dart,14
+Chub,Fall,50,Mountain Lake,Rainy,0,20,12-25,35,dart,14
+Chub,Winter,50,River,Sunny,0,20,12-25,35,dart,14
+Chub,Winter,50,River,Rainy,0,20,12-25,35,dart,14
+Chub,Winter,50,Mountain Lake,Sunny,0,20,12-25,35,dart,14
+Chub,Winter,50,Mountain Lake,Rainy,0,20,12-25,35,dart,14
+Woodskip,Spring,75,Secret Woods,Sunny,0,20,11-31,50,mixed,19
+Woodskip,Spring,75,Secret Woods,Rainy,0,20,11-31,50,mixed,19
+Woodskip,Summer,75,Secret Woods,Sunny,0,20,11-31,50,mixed,19
+Woodskip,Summer,75,Secret Woods,Rainy,0,20,11-31,50,mixed,19
+Woodskip,Fall,75,Secret Woods,Sunny,0,20,11-31,50,mixed,19
+Woodskip,Fall,75,Secret Woods,Rainy,0,20,11-31,50,mixed,19
+Woodskip,Winter,75,Secret Woods,Sunny,0,20,11-31,50,mixed,19
+Woodskip,Winter,75,Secret Woods,Rainy,0,20,11-31,50,mixed,19
+Void Salmon,Spring,150,Witch's Swamp,Sunny,0,20,24-66,80,mixed,29
+Void Salmon,Spring,150,Witch's Swamp,Rainy,0,20,24-66,80,mixed,29
+Void Salmon,Summer,150,Witch's Swamp,Sunny,0,20,24-66,80,mixed,29
+Void Salmon,Summer,150,Witch's Swamp,Rainy,0,20,24-66,80,mixed,29
+Void Salmon,Fall,150,Witch's Swamp,Sunny,0,20,24-66,80,mixed,29
+Void Salmon,Fall,150,Witch's Swamp,Rainy,0,20,24-66,80,mixed,29
+Void Salmon,Winter,150,Witch's Swamp,Sunny,0,20,24-66,80,mixed,29
+Void Salmon,Winter,150,Witch's Swamp,Rainy,0,20,24-66,80,mixed,29
+Slimejack,Spring,100,Mutant Bug Lair,Sunny,0,20,8-26,55,dart,21
+Slimejack,Spring,100,Mutant Bug Lair,Rainy,0,20,8-26,55,dart,21
+Slimejack,Summer,100,Mutant Bug Lair,Sunny,0,20,8-26,55,dart,21
+Slimejack,Summer,100,Mutant Bug Lair,Rainy,0,20,8-26,55,dart,21
+Slimejack,Fall,100,Mutant Bug Lair,Sunny,0,20,8-26,55,dart,21
+Slimejack,Fall,100,Mutant Bug Lair,Rainy,0,20,8-26,55,dart,21
+Slimejack,Winter,100,Mutant Bug Lair,Sunny,0,20,8-26,55,dart,21
+Slimejack,Winter,100,Mutant Bug Lair,Rainy,0,20,8-26,55,dart,21
+Stingray,Spring,180,Ginger Island,Sunny,0,20,18-61,80,sinker,29
+Stingray,Spring,180,Ginger Island,Rainy,0,20,18-61,80,sinker,29
+Stingray,Summer,180,Ginger Island,Sunny,0,20,18-61,80,sinker,29
+Stingray,Summer,180,Ginger Island,Rainy,0,20,18-61,80,sinker,29
+Stingray,Fall,180,Ginger Island,Sunny,0,20,18-61,80,sinker,29
+Stingray,Fall,180,Ginger Island,Rainy,0,20,18-61,80,sinker,29
+Stingray,Winter,180,Ginger Island,Sunny,0,20,18-61,80,sinker,29
+Stingray,Winter,180,Ginger Island,Rainy,0,20,18-61,80,sinker,29
+Lionfish,Spring,100,Ginger Island,Sunny,0,20,3-13,50,smooth,19
+Lionfish,Spring,100,Ginger Island,Rainy,0,20,3-13,50,smooth,19
+Lionfish,Summer,100,Ginger Island,Sunny,0,20,3-13,50,smooth,19
+Lionfish,Summer,100,Ginger Island,Rainy,0,20,3-13,50,smooth,19
+Lionfish,Fall,100,Ginger Island,Sunny,0,20,3-13,50,smooth,19
+Lionfish,Fall,100,Ginger Island,Rainy,0,20,3-13,50,smooth,19
+Lionfish,Winter,100,Ginger Island,Sunny,0,20,3-13,50,smooth,19
+Lionfish,Winter,100,Ginger Island,Rainy,0,20,3-13,50,smooth,19
+Blue Discus,Spring,120,Ginger Island,Sunny,0,20,2-10,60,dart,23
+Blue Discus,Spring,120,Ginger Island,Rainy,0,20,2-10,60,dart,23
+Blue Discus,Summer,120,Ginger Island,Sunny,0,20,2-10,60,dart,23
+Blue Discus,Summer,120,Ginger Island,Rainy,0,20,2-10,60,dart,23
+Blue Discus,Fall,120,Ginger Island,Sunny,0,20,2-10,60,dart,23
+Blue Discus,Fall,120,Ginger Island,Rainy,0,20,2-10,60,dart,23
+Blue Discus,Winter,120,Ginger Island,Sunny,0,20,2-10,60,dart,23
+Blue Discus,Winter,120,Ginger Island,Rainy,0,20,2-10,60,dart,23
+Goby,Spring,150,Waterfalls,Sunny,0,20,3-13,55,dart,21
+Goby,Spring,150,Waterfalls,Rainy,0,20,3-13,55,dart,21
+Goby,Summer,150,Waterfalls,Sunny,0,20,3-13,55,dart,21
+Goby,Summer,150,Waterfalls,Rainy,0,20,3-13,55,dart,21
+Goby,Fall,150,Waterfalls,Sunny,0,20,3-13,55,dart,21
+Goby,Fall,150,Waterfalls,Rainy,0,20,3-13,55,dart,21
+Goby,Winter,150,Waterfalls,Sunny,0,20,3-13,55,dart,21
+Goby,Winter,150,Waterfalls,Rainy,0,20,3-13,55,dart,21
+Salmon,Fall,75,River,Sunny,0,13,24-66,50,mixed,19
+Salmon,Fall,75,River,Rainy,0,13,24-66,50,mixed,19
+Salmon,Fall,75,Waterfalls,Sunny,0,13,24-66,50,mixed,19
+Salmon,Fall,75,Waterfalls,Rainy,0,13,24-66,50,mixed,19
+Sea Cucumber,Fall,75,Ocean,Sunny,0,13,3-21,40,sinker,16
+Sea Cucumber,Fall,75,Ocean,Rainy,0,13,3-21,40,sinker,16
+Sea Cucumber,Winter,75,Ocean,Sunny,0,13,3-21,40,sinker,16
+Sea Cucumber,Winter,75,Ocean,Rainy,0,13,3-21,40,sinker,16
+Tiger Trout,Fall,150,River,Sunny,0,13,10-21,60,dart,23
+Tiger Trout,Fall,150,River,Rainy,0,13,10-21,60,dart,23
+Tiger Trout,Winter,150,River,Sunny,0,13,10-21,60,dart,23
+Tiger Trout,Winter,150,River,Rainy,0,13,10-21,60,dart,23
+Albacore,Fall,75,Ocean,Sunny,0,5,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Sunny,0,20,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Sunny,12,5,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Sunny,12,20,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Rainy,0,5,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Rainy,0,20,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Rainy,12,5,20-41,60,mixed,23
+Albacore,Fall,75,Ocean,Rainy,12,20,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Sunny,0,5,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Sunny,0,20,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Sunny,12,5,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Sunny,12,20,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Rainy,0,5,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Rainy,0,20,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Rainy,12,5,20-41,60,mixed,23
+Albacore,Winter,75,Ocean,Rainy,12,20,20-41,60,mixed,23
+Walleye,Fall,105,River,Rainy,6,20,10-41,45,smooth,18
+Walleye,Fall,105,Forest Pond,Rainy,6,20,10-41,45,smooth,18
+Walleye,Fall,105,Mountain Lake,Rainy,6,20,10-41,45,smooth,18
+Walleye,Winter,105,River,Rainy,6,20,10-41,45,smooth,18
+Walleye,Winter,105,Forest Pond,Rainy,6,20,10-41,45,smooth,18
+Walleye,Winter,105,Mountain Lake,Rainy,6,20,10-41,45,smooth,18
+Midnight Carp,Fall,150,Mountain Lake,Sunny,14,20,12-53,55,mixed,21
+Midnight Carp,Fall,150,Mountain Lake,Rainy,14,20,12-53,55,mixed,21
+Midnight Carp,Fall,150,Forest Pond,Sunny,14,20,12-53,55,mixed,21
+Midnight Carp,Fall,150,Forest Pond,Rainy,14,20,12-53,55,mixed,21
+Midnight Carp,Fall,150,Ginger Island,Sunny,14,20,12-53,55,mixed,21
+Midnight Carp,Fall,150,Ginger Island,Rainy,14,20,12-53,55,mixed,21
+Midnight Carp,Winter,150,Mountain Lake,Sunny,14,20,12-53,55,mixed,21
+Midnight Carp,Winter,150,Mountain Lake,Rainy,14,20,12-53,55,mixed,21
+Midnight Carp,Winter,150,Forest Pond,Sunny,14,20,12-53,55,mixed,21
+Midnight Carp,Winter,150,Forest Pond,Rainy,14,20,12-53,55,mixed,21
+Midnight Carp,Winter,150,Ginger Island,Sunny,14,20,12-53,55,mixed,21
+Midnight Carp,Winter,150,Ginger Island,Rainy,14,20,12-53,55,mixed,21
+Anchovy,Spring,30,Ocean,Sunny,0,20,1-17,30,dart,13
+Anchovy,Spring,30,Ocean,Rainy,0,20,1-17,30,dart,13
+Anchovy,Fall,30,Ocean,Sunny,0,20,1-17,30,dart,13
+Anchovy,Fall,30,Ocean,Rainy,0,20,1-17,30,dart,13
+Smallmouth Bass,Spring,50,River,Sunny,0,20,12-25,28,mixed,12
+Smallmouth Bass,Spring,50,River,Rainy,0,20,12-25,28,mixed,12
+Smallmouth Bass,Spring,50,Forest Pond,Sunny,0,20,12-25,28,mixed,12
+Smallmouth Bass,Spring,50,Forest Pond,Rainy,0,20,12-25,28,mixed,12
+Smallmouth Bass,Fall,50,River,Sunny,0,20,12-25,28,mixed,12
+Smallmouth Bass,Fall,50,River,Rainy,0,20,12-25,28,mixed,12
+Smallmouth Bass,Fall,50,Forest Pond,Sunny,0,20,12-25,28,mixed,12
+Smallmouth Bass,Fall,50,Forest Pond,Rainy,0,20,12-25,28,mixed,12
+Eel,Spring,85,Ocean,Rainy,10,20,12-81,70,smooth,26
+Eel,Fall,85,Ocean,Rainy,10,20,12-81,70,smooth,26
+Catfish,Spring,200,River,Rainy,0,18,12-73,75,mixed,28
+Catfish,Spring,200,Secret Woods,Rainy,0,18,12-73,75,mixed,28
+Catfish,Spring,200,Witch's Swamp,Rainy,0,18,12-73,75,mixed,28
+Catfish,Fall,200,River,Rainy,0,18,12-73,75,mixed,28
+Catfish,Fall,200,Secret Woods,Rainy,0,18,12-73,75,mixed,28
+Catfish,Fall,200,Witch's Swamp,Rainy,0,18,12-73,75,mixed,28
+Sardine,Spring,40,Ocean,Sunny,0,13,1-13,30,dart,13
+Sardine,Spring,40,Ocean,Rainy,0,13,1-13,30,dart,13
+Sardine,Fall,40,Ocean,Sunny,0,13,1-13,30,dart,13
+Sardine,Fall,40,Ocean,Rainy,0,13,1-13,30,dart,13
+Sardine,Winter,40,Ocean,Sunny,0,13,1-13,30,dart,13
+Sardine,Winter,40,Ocean,Rainy,0,13,1-13,30,dart,13
+Sunfish,Spring,30,River,Sunny,0,13,5-16,30,mixed,13
+Sunfish,Summer,30,River,Sunny,0,13,5-16,30,mixed,13
+Flounder,Spring,100,Ocean,Sunny,0,13,4-17,50,sinker,19
+Flounder,Spring,100,Ocean,Rainy,0,13,4-17,50,sinker,19
+Flounder,Spring,100,Ginger Island,Sunny,0,13,4-17,50,sinker,19
+Flounder,Spring,100,Ginger Island,Rainy,0,13,4-17,50,sinker,19
+Flounder,Summer,100,Ocean,Sunny,0,13,4-17,50,sinker,19
+Flounder,Summer,100,Ocean,Rainy,0,13,4-17,50,sinker,19
+Flounder,Summer,100,Ginger Island,Sunny,0,13,4-17,50,sinker,19
+Flounder,Summer,100,Ginger Island,Rainy,0,13,4-17,50,sinker,19
+Shad,Spring,60,River,Rainy,3,20,20-49,45,smooth,18
+Shad,Summer,60,River,Rainy,3,20,20-49,45,smooth,18
+Shad,Fall,60,River,Rainy,3,20,20-49,45,smooth,18
+Halibut,Spring,80,Ocean,Sunny,0,5,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Sunny,0,20,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Sunny,13,5,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Sunny,13,20,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Rainy,0,5,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Rainy,0,20,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Rainy,13,5,10-34,50,sinker,19
+Halibut,Spring,80,Ocean,Rainy,13,20,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Sunny,0,5,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Sunny,0,20,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Sunny,13,5,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Sunny,13,20,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Rainy,0,5,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Rainy,0,20,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Rainy,13,5,10-34,50,sinker,19
+Halibut,Summer,80,Ocean,Rainy,13,20,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Sunny,0,5,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Sunny,0,20,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Sunny,13,5,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Sunny,13,20,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Rainy,0,5,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Rainy,0,20,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Rainy,13,5,10-34,50,sinker,19
+Halibut,Winter,80,Ocean,Rainy,13,20,10-34,50,sinker,19
+Herring,Spring,30,Ocean,Sunny,0,20,8-21,25,dart,11
+Herring,Spring,30,Ocean,Rainy,0,20,8-21,25,dart,11
+Herring,Winter,30,Ocean,Sunny,0,20,8-21,25,dart,11
+Herring,Winter,30,Ocean,Rainy,0,20,8-21,25,dart,11
+Rainbow Trout,Summer,65,River,Sunny,0,13,10-26,45,mixed,18
+Rainbow Trout,Summer,65,Mountain Lake,Sunny,0,13,10-26,45,mixed,18
+Dorado,Summer,100,River,Sunny,0,13,24-33,78,mixed,29
+Dorado,Summer,100,River,Rainy,0,13,24-33,78,mixed,29
+Pufferfish,Summer,200,Ocean,Sunny,6,10,1-37,80,floater,29
+Pufferfish,Summer,200,Ginger Island,Sunny,6,10,1-37,80,floater,29
+Octopus,Summer,150,Ocean,Sunny,0,7,12-49,95,sinker,34
+Octopus,Summer,150,Ocean,Rainy,0,7,12-49,95,sinker,34
+Octopus,Summer,150,Ginger Island,Sunny,0,7,12-49,95,sinker,34
+Octopus,Summer,150,Ginger Island,Rainy,0,7,12-49,95,sinker,34
+Super Cucumber,Summer,250,Ocean,Sunny,12,20,12-37,80,sinker,29
+Super Cucumber,Summer,250,Ocean,Rainy,12,20,12-37,80,sinker,29
+Super Cucumber,Summer,250,Ginger Island,Sunny,12,20,12-37,80,sinker,29
+Super Cucumber,Summer,250,Ginger Island,Rainy,12,20,12-37,80,sinker,29
+Super Cucumber,Fall,250,Ocean,Sunny,12,20,12-37,80,sinker,29
+Super Cucumber,Fall,250,Ocean,Rainy,12,20,12-37,80,sinker,29
+Super Cucumber,Fall,250,Ginger Island,Sunny,12,20,12-37,80,sinker,29
+Super Cucumber,Fall,250,Ginger Island,Rainy,12,20,12-37,80,sinker,29
+Tilapia,Summer,75,Ocean,Sunny,0,8,11-31,50,mixed,19
+Tilapia,Summer,75,Ocean,Rainy,0,8,11-31,50,mixed,19
+Tilapia,Summer,75,Ginger Island,Sunny,0,8,11-31,50,mixed,19
+Tilapia,Summer,75,Ginger Island,Rainy,0,8,11-31,50,mixed,19
+Tilapia,Fall,75,Ocean,Sunny,0,8,11-31,50,mixed,19
+Tilapia,Fall,75,Ocean,Rainy,0,8,11-31,50,mixed,19
+Tilapia,Fall,75,Ginger Island,Sunny,0,8,11-31,50,mixed,19
+Tilapia,Fall,75,Ginger Island,Rainy,0,8,11-31,50,mixed,19
+Red Snapper,Summer,50,Ocean,Rainy,0,13,8-26,40,mixed,16
+Red Snapper,Fall,50,Ocean,Rainy,0,13,8-26,40,mixed,16
+Red Snapper,Winter,50,Ocean,Rainy,0,13,8-26,40,mixed,16
+Pike,Summer,100,River,Sunny,0,20,15-61,60,dart,23
+Pike,Summer,100,River,Rainy,0,20,15-61,60,dart,23
+Pike,Summer,100,Forest Pond,Sunny,0,20,15-61,60,dart,23
+Pike,Summer,100,Forest Pond,Rainy,0,20,15-61,60,dart,23
+Pike,Winter,100,River,Sunny,0,20,15-61,60,dart,23
+Pike,Winter,100,River,Rainy,0,20,15-61,60,dart,23
+Pike,Winter,100,Forest Pond,Sunny,0,20,15-61,60,dart,23
+Pike,Winter,100,Forest Pond,Rainy,0,20,15-61,60,dart,23
+Red Mullet,Summer,75,Ocean,Sunny,0,13,8-23,55,smooth,21
+Red Mullet,Summer,75,Ocean,Rainy,0,13,8-23,55,smooth,21
+Red Mullet,Winter,75,Ocean,Sunny,0,13,8-23,55,smooth,21
+Red Mullet,Winter,75,Ocean,Rainy,0,13,8-23,55,smooth,21
+Sturgeon,Summer,200,Mountain Lake,Sunny,0,13,12-61,78,mixed,29
+Sturgeon,Summer,200,Mountain Lake,Rainy,0,13,12-61,78,mixed,29
+Sturgeon,Winter,200,Mountain Lake,Sunny,0,13,12-61,78,mixed,29
+Sturgeon,Winter,200,Mountain Lake,Rainy,0,13,12-61,78,mixed,29
+Tuna,Summer,100,Ocean,Sunny,0,13,12-61,70,smooth,26
+Tuna,Summer,100,Ocean,Rainy,0,13,12-61,70,smooth,26
+Tuna,Summer,100,Ginger Island,Sunny,0,13,12-61,70,smooth,26
+Tuna,Summer,100,Ginger Island,Rainy,0,13,12-61,70,smooth,26
+Tuna,Winter,100,Ocean,Sunny,0,13,12-61,70,smooth,26
+Tuna,Winter,100,Ocean,Rainy,0,13,12-61,70,smooth,26
+Tuna,Winter,100,Ginger Island,Sunny,0,13,12-61,70,smooth,26
+Tuna,Winter,100,Ginger Island,Rainy,0,13,12-61,70,smooth,26
+Perch,Winter,55,River,Sunny,0,20,10-25,35,dart,14
+Perch,Winter,55,Forest Pond,Sunny,0,20,10-25,35,dart,14
+Perch,Winter,55,Mountain Lake,Sunny,0,20,10-25,35,dart,14
+Squid,Winter,80,Ocean,Sunny,12,20,12-49,75,sinker,28
+Lingcod,Winter,120,River,Sunny,0,20,30-51,85,mixed,31
+Lingcod,Winter,120,Mountain Lake,Sunny,0,20,30-51,85,mixed,31
