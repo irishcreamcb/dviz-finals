@@ -1,0 +1,22 @@
+item_name,location,percentage,price,season,energy,health
+Wild Horseradish,Secret Woods,0.52,50,Spring,13,5
+Wild Horseradish,Cindersap Forest,0.5,50,Spring,13,5
+Wild Horseradish,Backwoods,0.42,50,Spring,13,5
+Wild Horseradish,Mountain,0.42,50,Spring,13,5
+Wild Horseradish,Forest Farm,0.25,50,Spring,13,5
+Daffodil,Pelican Town,1,30,Spring,0,0
+Daffodil,Bus Stop,0.45,30,Spring,0,0
+Daffodil,Railroad,0.45,30,Spring,0,0
+Leek,Backwoods,0.58,60,Spring,40,18
+Leek,Mountain,0.58,60,Spring,40,18
+Leek,Forest Farm,0.25,60,Spring,40,18
+Leek,Bus Stop,0.2,60,Spring,40,18
+Leek,Railroad,0.2,60,Spring,40,18
+Dandelion,Cindersap Forest,0.5,40,Spring,25,11
+Dandelion,Bus Stop,0.35,40,Spring,25,11
+Dandelion,Railroad,0.35,40,Spring,25,11
+Dandelion,Forest Farm,0.25,40,Spring,25,11
+Spring Onion,Cindersap Forest,1,8,Spring,13,5
+Morel,Secret Woods,0.32,150,Spring,20,9
+Morel,Forest Farm,0.25,150,Spring,20,9
+Common Mushroom,Secret Woods,0.16,40,Spring,38,17
